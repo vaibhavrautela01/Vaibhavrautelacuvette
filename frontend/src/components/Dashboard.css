@@ -1,0 +1,137 @@
+.app-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 60px;
+    background-color: hsl(0, 100%, 100%); /* Sidebar in white */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  
+  .home-icon {
+    color: #000000; /* Emoji in black */
+    font-size: 24px;
+  }
+  
+  .main-content {
+    width: 100%;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .contact-section span {
+    font-size: 16px;
+    color: #606060;
+  }
+  
+  .profile-section span {
+    font-size: 16px;
+    color: #606060;
+  }
+  
+  .content {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .create-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container{
+    position: absolute;
+    left: -580px;
+    position: relative;
+    top:50px;
+  }
+
+.title{
+  position: absolute;
+  left:12px;
+}
+
+.title2{
+  position: absolute;
+  left:250px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+  margin-top: 90px;
+  
+
+
+}
+
+.form-group label {
+  width: 150px; /* Adjust the width as needed */
+  text-align: left;
+  margin-right: 20px; /* Adds space between the label and input */
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  flex-grow: 1; /* Makes the input fields flexible */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #218838;
+}
